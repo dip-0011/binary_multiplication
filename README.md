@@ -7,10 +7,10 @@ This repository contains Verilog implementations of two different binary multipl
 > - Contributing
 
 # Booth's Algorithm (Signed Binary Multiplication)
-The booth_multiplier module in the **sig_mul.v** file implements the signed binary multiplication using Booth's algorithm. This algorithm efficiently handles signed multiplication using bit-pair recoding and shifting operations.
+The sign_mul module in the **sig_mul.v** file implements the signed binary multiplication using Booth's algorithm. This algorithm efficiently handles signed multiplication using bit-pair recoding and shifting operations.
 
 # Shift and Add Algorithm (Unsigned Binary Multiplication)
-The shift_add_multiplier module in the **unsig_mul.v** file implements unsigned binary multiplication using the shift and add algorithm. This simple algorithm involves shifting the multiplicand and adding it repeatedly based on the multiplier bits.
+The unsigned_mul module in the **unsig_mul.v** file implements unsigned binary multiplication using the shift and add algorithm. This simple algorithm involves shifting the multiplicand and adding it repeatedly based on the multiplier bits.
 
 # Usage
 1. Clone the repo:
